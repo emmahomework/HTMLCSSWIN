@@ -1,0 +1,338 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, textarea {
+	all: unset;
+  }
+
+/* -----------css reset--------------- */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.social-media-link{
+	background-color: #f6f6f6;
+}
+
+.social-media-link ul{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.fb-link{
+	padding: 7px 0px;
+}
+
+.fb-link a{
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color:#4460a0;
+	padding-left: 20px;
+	padding-right: 10px;
+	background: url(../img/fb-logo.png) no-repeat;
+	border-right: 1px #b5b5b6 solid;
+	text-decoration: none;
+}
+
+.fb-link a:hover{
+	color: #00aaec;
+}
+
+.twitter-link{
+	padding-left: 10px;
+}
+
+.twitter-link a{
+	isplay: block;
+	font-size: 15px;
+	font-weight: bold;
+	color:#00aaec;
+	padding-left: 20px;
+	padding-right: 15px;
+	background: url(../img/twitter-logo.png) no-repeat;
+	text-decoration: none;
+}
+
+.twitter-link a:hover{
+	color: #4460a0;
+}
+/*----------社群媒體連結--------*/
+
+.head-link{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+}
+
+.top-menu{
+	display: flex;
+	width: 240px;
+	justify-content: space-between;
+}
+
+.head-link h1 a{
+	display: block;
+	width: 172px;
+	height: 36px;
+	background: url(../img/logo_10.png) no-repeat;
+	text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.top-menu a{
+	display: block;
+	font-size: 15px;
+	color:#00cc99;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 17px 13px;
+	border-bottom: #fff 4px solid;
+}
+
+.top-menu a:hover{
+	border-bottom: #00cc99 4px solid;
+}
+
+/*-------黑色大banner-----*/
+.banner{
+	background: url(../img/banner_02.png);
+	width: 1000px;
+	height: 346px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 65px;
+}
+
+.banner h2{
+	width: 954px;
+	font-size: 36px;
+	line-height: 48px;
+	color:#fff;
+	font-weight: bold;
+	padding: 40px 23px;
+	background-color:rgba(2,2,2,0.2) ;
+}
+/*-------三個課程介紹--------*/
+.course{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 55px;
+}
+
+.course li{
+	width: 260px;
+	padding: 22px 20px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.course img{
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+.course h3{
+	text-align: center;
+	font-size: 18px;
+	color:#333333;
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+
+.course p{
+	font-size: 15px;
+	line-height: 22px;
+	color:#333333;
+	text-align: justify;
+}
+
+/*--------表格--------*/
+.table-title{
+	text-align: center;
+	font-size: 24px;
+	color:#333333;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+table{
+	width: 840px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+table th,table td{
+	font-size: 15px;
+	color: #333333;
+	text-align: left;
+	padding: 10px 24px;
+	border-top: #dddddd 1px solid;
+	border-bottom: #dddddd 1px solid;
+}
+
+table th{
+	background: #f7f7f7;
+	font-weight: bold;
+}
+
+table .focus{
+	color: #00a67d;
+}
+
+/*----------表單----------*/
+.form-list{
+	width: 1000px;
+	background: linear-gradient(to bottom, #00644b, #009872);
+	margin-bottom: 26px;
+}
+
+.form-list h3{
+	padding-top: 36px;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 32px;
+}
+
+.form-table{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-table textarea{
+	width: 436px;
+	height: 222px;
+	background-color: #fff;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	padding: 12px;
+}
+
+.input-list{
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+.input-list label{
+	color:#fff;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.input-list input{
+	width: 420px;
+	height: 30px;
+	background-color: #fff;;
+	border-radius: 5px;
+	padding: 0 12px;
+	margin-bottom: 16px;
+}
+
+.input-list .btn{
+	width: 70px;
+	height: 45px;
+	background-color:#00cc99;
+	color:#fff;
+	text-align: center;
+	align-self:flex-end;
+}
+
+.input-list .btn:hover{
+	background-color:#898989;
+}
+
+
+/*----------表尾----------*/
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.footer img{
+	padding-left: 20px;
+	padding-bottom: 55px;
+}
+
+.footer li{
+	font-size: 15px;
+	color:#333333;
+	line-height: 24px;
+	padding-right: 15px;
+}
+
+.footer li span{
+	color:#e12d80;
+}
+
+.footer li a{
+	color:#e12d80;
+	text-decoration: none;
+}
+
+.footer li a:hover{
+	color:#6a0541;
+	text-decoration: none;
+}
