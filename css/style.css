@@ -176,7 +176,7 @@ body{
 	margin-bottom: 55px;
 }
 
-.course li{
+.course-list{
 	width: 260px;
 	padding: 22px 20px;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -201,6 +201,13 @@ body{
 	line-height: 22px;
 	color:#333333;
 	text-align: justify;
+}
+
+.jquery-list li{
+	font-size: 15px;
+	line-height: 22px;
+	color:#333333;
+	list-style:disc;
 }
 
 /*--------表格--------*/
@@ -297,6 +304,7 @@ table .focus{
 	color:#fff;
 	text-align: center;
 	align-self:flex-end;
+	cursor: pointer;
 }
 
 .input-list .btn:hover{
